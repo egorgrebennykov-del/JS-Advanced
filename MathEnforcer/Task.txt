@@ -1,0 +1,27 @@
+Your task is to test an object named mathEnforcer, which should have the following functionality:
+
+· addFive(num) - A function that accepts a single parameter:
+
+o If the parameter is NOT a number, the function should return undefined.
+
+o If the parameter is a number, add 5 to it, and return the result.
+
+· subtractTen(num) - A function that accepts a single parameter:
+
+o If the parameter is NOT a number, the function should return undefined.
+
+o If the parameter is a number, subtract 10 from it, and return the result.
+
+· sum(num1, num2) - A function that accepts two parameters:
+
+o If any of the 2 parameters is NOT a number, the function should return undefined.
+
+o If both parameters are numbers, the function should return their sum.
+
+JS Code
+
+You are provided with an implementation of the mathEnforcer object.
+
+The methods should function correctly for positive, negative, and floating-point numbers. In the case of floating-point numbers, the result should be considered correct if it is within 0.01 of the correct value
+
+Your tests will be supplied with a variable named "mathEnforcer" which contains the mentioned above logic. All test cases you write should reference this variable.
