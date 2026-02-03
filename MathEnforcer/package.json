@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  },
+  "name": "mathenforcer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "MathEnforcer.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
