@@ -1,0 +1,1 @@
+Using Mocha and Chai write unit tests to test the entire functionality of the PaymentPackage class. Make sure instances of it have all the required functionality and validation.
