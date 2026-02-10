@@ -12,14 +12,13 @@
     };
 
     Array.prototype.sum = function(){
-        sum = 0;
-        this.forEach(element => {sum += element});
+        let sum = 0;
+        this.forEach(element => sum += element);
         return sum;
     };
 
-    Array.prototype.average = function()
-    {
-        return this.sum() / (this.length - 1);
+    Array.prototype.average = function(){
+        return this.sum() / this.length;
     };
 })();
 
