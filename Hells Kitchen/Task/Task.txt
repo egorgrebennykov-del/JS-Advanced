@@ -1,0 +1,31 @@
+You will be given an array of strings representing a list of restaurants with their workers.
+
+When the [Send] button is clicked:
+
+* Display the best restaurant among all added restaurants together with its average salary and best salary.
+* If a restaurant appears more than once in the input array, add the new workers to the existing ones and update the average salary and best salary values.
+* The best restaurant is the one with the highest average salary. If two restaurants have the same average salary, the best restaurant is the one that was added first.
+* Display all workers in the best restaurant together with their salaries.
+* The workers in the best restaurant must be sorted by their salaries in descending order.
+
+Input
+
+The input will be received from the given textarea in the form of an array of strings. Each string represents a restaurant with its workers.
+
+Example input:
+
+["Mikes - Steve 1000, Ivan 200, Paul 800", "Fleet - Maria 850, Janet 650"]
+
+Output
+
+The output contains two strings:
+
+The first one is the best restaurant in the format:
+
+Name: {restaurant name} Average Salary: {restaurant avgSalary} Best Salary: {restaurant bestSalary}
+
+The avgSalary and bestSalary must be formatted to the second decimal point.
+
+The second one is all the workers in that restaurant in the following format:
+
+Name: {worker name} With Salary: {worker salary} Name: {worker2 name} With Salary: {worker2 salary} Name: {worker3 name} With Salary: {worker3 salary} …
